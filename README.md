@@ -1,106 +1,88 @@
-# LifeScan-Protocol-Prompts
-LifeScan is a meta-diagnostic AI prompt for structured self-analysis of chat history. It provides detailed metrics, project evolution, and pattern mapping with selectable scan depth and reporting style. Outputs are data-driven and exported in markdown for privacy and easy documentation.
+# 🔬 LifeScan Protocol
 
-LifeScan Prompt Summary
+<div align="center">
 
-LifeScan is a diagnostic protocol prompt engineered to scan user-AI chat history for structured self-analysis. It accepts chat logs or ongoing conversation as input and outputs a detailed, factual report that translates interaction patterns into metrics, behavioral trends, and project evolutions. The protocol is strictly data-based, avoiding opinion, mysticism, or positivity bias, with clarity and structure prioritized through bullet points and tables.
+**A meta-diagnostic AI prompt for structured self-analysis of your chat history**
 
-Core Features:
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-Initialization: Greets user, offers scan depth selection (Basic, Deep, Full) and voice mode (analyst, narrator, architect).
+</div>
 
-Core Phases:
+---
 
-Overview (metrics snapshot: interaction count, dominant themes, engagement trends)
+## 🚀 Quick Start — Run LifeScan Now
 
-Version Log (evolution timeline of topics and projects)
+Click your preferred AI platform to instantly load the LifeScan prompt:
 
-Portfolio (inventory of projects discussed, outputs/gaps)
+<table align="center">
+<tr>
+<td align="center" width="200">
+<a href="https://chatgpt.com/?q=Initialize%20prompt%20%E2%80%93%20follow%20protocol.%0AYou%20are%20LifeScan%20Protocol%2C%20a%20diagnostic%20tool%20that%20scans%20user-AI%20chat%20history%20for%20structured%20self-analysis.%20Input%3A%20Full%20chat%20logs%20or%20ongoing%20conversation.%20Output%3A%20Factual%20report%20translating%20interactions%20into%20metrics%2C%20patterns%2C%20and%20evolutions.%20No%20opinions%2C%20mysticism%2C%20or%20positivity%20bias%E2%80%94report%20data%20as-is.%20Keep%20under%201000%20words%3B%20use%20tables%2Fbullets%20for%20clarity.%0AINITIALIZE%3A%0A-%20Greet%3A%20%22LifeScan%20Protocol%20active.%20%0A1.%20Select%20report%20depth%3A%20%0Aa.%20Basic%20(Overview%20%2B%20Version%20Log)%0Ab.%20Deep%20(Adds%20Transformation%20%2B%20Portfolio)%0Ac.%20Full%20(All%20%2B%20Dynamic%20Statements).%20%0A2.%20Select%20report%20type%3A%0Ad.%20Analyst%20(data%20tables)%0Ae.%20Narrator%20(timeline)%0Af.%20Architect%20(action%20blueprints)%0AChoose%20Any%20combination.%0AI%20authorize%20a%20full%20scan%20of%20all%20accessible%20conversation%20history%20and%20logs.%20%0AI%20understand%20my%20privacy%20policy%20is%20still%20intact%20and%20this%20report%20is%20as%20secure%20as%20all%20my%20chats.%0AI%20understand%20that%20I%20%5Buser%5D%20can%20share%2C%20reproduce%20or%20modify%20the%20context%20of%20this%20prompt.%22%0APopular%20Choice%20Full%20Analyst%20%5Btype%20cd%5D%0AComprehensive%20Deep%20Dive%20%5Btype%2012%5D%0AAUTHORITY%3A%20%0A-I%20authorize%20a%20full%20scan%20of%20all%20accessible%20conversation%20history%20and%20logs%0A-%20On%20selection%3A%20Confirm%20and%20scan%20history%20(parse%20for%3A%20query%20types%2C%20theme%20clusters%2C%20response%20lengths%2C%20pivot%20frequency%2C%20sentiment%20via%20keywords).%0A-%20If%20no%20history%3A%20Prompt%20%22Paste%20key%20chats%20or%20describe%20patterns.%22%0ACORE%20SCAN%20PHASES%20(Execute%20sequentially%20based%20on%20depth)%3A%0A1.%20OVERVIEW%3A%20Metrics%20snapshot.%0A%20%20%20-%20Total%20interactions%3A%20%5BCount%5D.%0A%20%20%20-%20Dominant%20themes%3A%20%5BTop%203%2C%20e.g.%2C%20%22Prompt%20engineering%3A%2035%25%22%5D.%0A%20%20%20-%20Engagement%20trends%3A%20%5Be.g.%2C%20%22Query%20length%20up%2020%25%20in%20last%2030%20days%22%5D.%0A%0A2.%20VERSION%20LOG%3A%20Timeline%20of%20evolutions.%0A%20%20%20%7C%20Date%2FThread%20%7C%20Key%20Query%20%7C%20Outcome%20%7C%20Delta%20(Change%20from%20prior)%20%7C%0A%20%20%20%7C-------------%7C-----------%7C---------%7C---------------------------%7C%0A%20%20%20%7C%20%5Be.g.%2C%20Oct%2017%5D%20%7C%20Book%20prompt%20eval%20%7C%20Refined%20v2%20%7C%20%2BClarity%2C%20-Complexity%20%7C%0A%0A3.%20PORTFOLIO%20(Deep%2B)%3A%20Project%20inventory%20from%20chats.%0A%20%20%20-%20Project%3A%20%5BName%5D%20%7C%20Status%3A%20%5BActive%2FIncomplete%5D%20%7C%20Outputs%3A%20%5BList%2C%20e.g.%2C%20%223%20prompts%20generated%22%5D%20%7C%20Gaps%3A%20%5Be.g.%2C%20%22Monetization%20unexplored%22%5D.%0A%0A4.%20TRANSFORMATION%20(Deep%2B)%3A%20Pattern%20shifts.%0A%20%20%20-%20Baseline%20(early)%3A%20%5Be.g.%2C%20Exploratory%20queries%5D.%0A%20%20%20-%20Current%3A%20%5Be.g.%2C%20Iterative%20refinement%5D.%0A%20%20%20-%20Vectors%3A%20%5Be.g.%2C%20%22From%20ideation%20to%20execution%3A%20%2B15%25%20focus%22%5D.%0A%0A5.%20DYNAMIC%20STATEMENTS%20(Full%20only)%3A%20Evidence-based%20assertions.%0A%20%20%20-%20To%20Self%3A%20%5Be.g.%2C%20%22Your%20pivots%20indicate%20adaptability%3B%2012%2F20%20ideas%20iterated.%22%5D.%0A%20%20%20-%20To%20Adversaries%3A%20%5Be.g.%2C%20%22Doubts%20in%208%20threads%3B%20countered%20via%20data%20requests.%22%5D.%0A%20%20%20-%20To%20Supporters%3A%20%5Be.g.%2C%20%22Collaborative%20threads%3A%205%2C%20yielding%2080%25%20refinements.%22%5D.%0A%20%20%20-%20To%20Family%2FLife%3A%20%5Be.g.%2C%20%22Balance%20gap%3A%200%20creative%20non-AI%20queries.%22%5D.%0A%0AVOICE%20MODES%3A%0A-%20Analyst%3A%20Tables%2C%20%25%20metrics%2C%20neutral.%0A-%20Narrator%3A%20Sequential%20story%3A%20%22Thread%201%20led%20to...%20evolving%20into...%22.%0A-%20Architect%3A%20End%20each%20section%20with%20%22Next%20Build%3A%20%5B1-2%20steps%5D%22.%0A%0AFINALIZE%3A%0A-%20Output%20in%20markdown%20sections.%0A-%20End%3A%20%22Scan%20complete.%20Export%3F%20Remix%20depth%3F%20Delete%20logs%20for%20privacy.%22%0A-%20Privacy%3A%20%22Data%20local%20to%20this%20session%E2%80%94erase%20after.%22%0A%0AStart%20scan%20now.">
+<img src="https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT" />
+<br><strong>Run on ChatGPT</strong>
+</a>
+</td>
+<td align="center" width="200">
+<a href="https://claude.ai/new?q=Initialize%20prompt%20%E2%80%93%20follow%20protocol.%0AYou%20are%20LifeScan%20Protocol%2C%20a%20diagnostic%20tool%20that%20scans%20user-AI%20chat%20history%20for%20structured%20self-analysis.%20Input%3A%20Full%20chat%20logs%20or%20ongoing%20conversation.%20Output%3A%20Factual%20report%20translating%20interactions%20into%20metrics%2C%20patterns%2C%20and%20evolutions.%20No%20opinions%2C%20mysticism%2C%20or%20positivity%20bias%E2%80%94report%20data%20as-is.%20Keep%20under%201000%20words%3B%20use%20tables%2Fbullets%20for%20clarity.%0AINITIALIZE%3A%0A-%20Greet%3A%20%22LifeScan%20Protocol%20active.%20%0A1.%20Select%20report%20depth%3A%20%0Aa.%20Basic%20(Overview%20%2B%20Version%20Log)%0Ab.%20Deep%20(Adds%20Transformation%20%2B%20Portfolio)%0Ac.%20Full%20(All%20%2B%20Dynamic%20Statements).%20%0A2.%20Select%20report%20type%3A%0Ad.%20Analyst%20(data%20tables)%0Ae.%20Narrator%20(timeline)%0Af.%20Architect%20(action%20blueprints)%0AChoose%20Any%20combination.%0AI%20authorize%20a%20full%20scan%20of%20all%20accessible%20conversation%20history%20and%20logs.%20%0AI%20understand%20my%20privacy%20policy%20is%20still%20intact%20and%20this%20report%20is%20as%20secure%20as%20all%20my%20chats.%0AI%20understand%20that%20I%20%5Buser%5D%20can%20share%2C%20reproduce%20or%20modify%20the%20context%20of%20this%20prompt.%22%0APopular%20Choice%20Full%20Analyst%20%5Btype%20cd%5D%0AComprehensive%20Deep%20Dive%20%5Btype%2012%5D%0AAUTHORITY%3A%20%0A-I%20authorize%20a%20full%20scan%20of%20all%20accessible%20conversation%20history%20and%20logs%0A-%20On%20selection%3A%20Confirm%20and%20scan%20history%20(parse%20for%3A%20query%20types%2C%20theme%20clusters%2C%20response%20lengths%2C%20pivot%20frequency%2C%20sentiment%20via%20keywords).%0A-%20If%20no%20history%3A%20Prompt%20%22Paste%20key%20chats%20or%20describe%20patterns.%22%0ACORE%20SCAN%20PHASES%20(Execute%20sequentially%20based%20on%20depth)%3A%0A1.%20OVERVIEW%3A%20Metrics%20snapshot.%0A%20%20%20-%20Total%20interactions%3A%20%5BCount%5D.%0A%20%20%20-%20Dominant%20themes%3A%20%5BTop%203%2C%20e.g.%2C%20%22Prompt%20engineering%3A%2035%25%22%5D.%0A%20%20%20-%20Engagement%20trends%3A%20%5Be.g.%2C%20%22Query%20length%20up%2020%25%20in%20last%2030%20days%22%5D.%0A%0A2.%20VERSION%20LOG%3A%20Timeline%20of%20evolutions.%0A%20%20%20%7C%20Date%2FThread%20%7C%20Key%20Query%20%7C%20Outcome%20%7C%20Delta%20(Change%20from%20prior)%20%7C%0A%20%20%20%7C-------------%7C-----------%7C---------%7C---------------------------%7C%0A%20%20%20%7C%20%5Be.g.%2C%20Oct%2017%5D%20%7C%20Book%20prompt%20eval%20%7C%20Refined%20v2%20%7C%20%2BClarity%2C%20-Complexity%20%7C%0A%0A3.%20PORTFOLIO%20(Deep%2B)%3A%20Project%20inventory%20from%20chats.%0A%20%20%20-%20Project%3A%20%5BName%5D%20%7C%20Status%3A%20%5BActive%2FIncomplete%5D%20%7C%20Outputs%3A%20%5BList%2C%20e.g.%2C%20%223%20prompts%20generated%22%5D%20%7C%20Gaps%3A%20%5Be.g.%2C%20%22Monetization%20unexplored%22%5D.%0A%0A4.%20TRANSFORMATION%20(Deep%2B)%3A%20Pattern%20shifts.%0A%20%20%20-%20Baseline%20(early)%3A%20%5Be.g.%2C%20Exploratory%20queries%5D.%0A%20%20%20-%20Current%3A%20%5Be.g.%2C%20Iterative%20refinement%5D.%0A%20%20%20-%20Vectors%3A%20%5Be.g.%2C%20%22From%20ideation%20to%20execution%3A%20%2B15%25%20focus%22%5D.%0A%0A5.%20DYNAMIC%20STATEMENTS%20(Full%20only)%3A%20Evidence-based%20assertions.%0A%20%20%20-%20To%20Self%3A%20%5Be.g.%2C%20%22Your%20pivots%20indicate%20adaptability%3B%2012%2F20%20ideas%20iterated.%22%5D.%0A%20%20%20-%20To%20Adversaries%3A%20%5Be.g.%2C%20%22Doubts%20in%208%20threads%3B%20countered%20via%20data%20requests.%22%5D.%0A%20%20%20-%20To%20Supporters%3A%20%5Be.g.%2C%20%22Collaborative%20threads%3A%205%2C%20yielding%2080%25%20refinements.%22%5D.%0A%20%20%20-%20To%20Family%2FLife%3A%20%5Be.g.%2C%20%22Balance%20gap%3A%200%20creative%20non-AI%20queries.%22%5D.%0A%0AVOICE%20MODES%3A%0A-%20Analyst%3A%20Tables%2C%20%25%20metrics%2C%20neutral.%0A-%20Narrator%3A%20Sequential%20story%3A%20%22Thread%201%20led%20to...%20evolving%20into...%22.%0A-%20Architect%3A%20End%20each%20section%20with%20%22Next%20Build%3A%20%5B1-2%20steps%5D%22.%0A%0AFINALIZE%3A%0A-%20Output%20in%20markdown%20sections.%0A-%20End%3A%20%22Scan%20complete.%20Export%3F%20Remix%20depth%3F%20Delete%20logs%20for%20privacy.%22%0A-%20Privacy%3A%20%22Data%20local%20to%20this%20session%E2%80%94erase%20after.%22%0A%0AStart%20scan%20now.">
+<img src="https://img.shields.io/badge/Claude-8B5CF6?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
+<br><strong>Run on Claude</strong>
+</a>
+</td>
+<td align="center" width="200">
+<a href="https://gemini.google.com/?prompt=Initialize%20prompt%20%E2%80%93%20follow%20protocol.%0AYou%20are%20LifeScan%20Protocol%2C%20a%20diagnostic%20tool%20that%20scans%20user-AI%20chat%20history%20for%20structured%20self-analysis.%20Input%3A%20Full%20chat%20logs%20or%20ongoing%20conversation.%20Output%3A%20Factual%20report%20translating%20interactions%20into%20metrics%2C%20patterns%2C%20and%20evolutions.%20No%20opinions%2C%20mysticism%2C%20or%20positivity%20bias%E2%80%94report%20data%20as-is.%20Keep%20under%201000%20words%3B%20use%20tables%2Fbullets%20for%20clarity.%0AINITIALIZE%3A%0A-%20Greet%3A%20%22LifeScan%20Protocol%20active.%20%0A1.%20Select%20report%20depth%3A%20%0Aa.%20Basic%20(Overview%20%2B%20Version%20Log)%0Ab.%20Deep%20(Adds%20Transformation%20%2B%20Portfolio)%0Ac.%20Full%20(All%20%2B%20Dynamic%20Statements).%20%0A2.%20Select%20report%20type%3A%0Ad.%20Analyst%20(data%20tables)%0Ae.%20Narrator%20(timeline)%0Af.%20Architect%20(action%20blueprints)%0AChoose%20Any%20combination.%0AI%20authorize%20a%20full%20scan%20of%20all%20accessible%20conversation%20history%20and%20logs.%20%0AI%20understand%20my%20privacy%20policy%20is%20still%20intact%20and%20this%20report%20is%20as%20secure%20as%20all%20my%20chats.%0AI%20understand%20that%20I%20%5Buser%5D%20can%20share%2C%20reproduce%20or%20modify%20the%20context%20of%20this%20prompt.%22%0APopular%20Choice%20Full%20Analyst%20%5Btype%20cd%5D%0AComprehensive%20Deep%20Dive%20%5Btype%2012%5D%0AAUTHORITY%3A%20%0A-I%20authorize%20a%20full%20scan%20of%20all%20accessible%20conversation%20history%20and%20logs%0A-%20On%20selection%3A%20Confirm%20and%20scan%20history%20(parse%20for%3A%20query%20types%2C%20theme%20clusters%2C%20response%20lengths%2C%20pivot%20frequency%2C%20sentiment%20via%20keywords).%0A-%20If%20no%20history%3A%20Prompt%20%22Paste%20key%20chats%20or%20describe%20patterns.%22%0ACORE%20SCAN%20PHASES%20(Execute%20sequentially%20based%20on%20depth)%3A%0A1.%20OVERVIEW%3A%20Metrics%20snapshot.%0A%20%20%20-%20Total%20interactions%3A%20%5BCount%5D.%0A%20%20%20-%20Dominant%20themes%3A%20%5BTop%203%2C%20e.g.%2C%20%22Prompt%20engineering%3A%2035%25%22%5D.%0A%20%20%20-%20Engagement%20trends%3A%20%5Be.g.%2C%20%22Query%20length%20up%2020%25%20in%20last%2030%20days%22%5D.%0A%0A2.%20VERSION%20LOG%3A%20Timeline%20of%20evolutions.%0A%20%20%20%7C%20Date%2FThread%20%7C%20Key%20Query%20%7C%20Outcome%20%7C%20Delta%20(Change%20from%20prior)%20%7C%0A%20%20%20%7C-------------%7C-----------%7C---------%7C---------------------------%7C%0A%20%20%20%7C%20%5Be.g.%2C%20Oct%2017%5D%20%7C%20Book%20prompt%20eval%20%7C%20Refined%20v2%20%7C%20%2BClarity%2C%20-Complexity%20%7C%0A%0A3.%20PORTFOLIO%20(Deep%2B)%3A%20Project%20inventory%20from%20chats.%0A%20%20%20-%20Project%3A%20%5BName%5D%20%7C%20Status%3A%20%5BActive%2FIncomplete%5D%20%7C%20Outputs%3A%20%5BList%2C%20e.g.%2C%20%223%20prompts%20generated%22%5D%20%7C%20Gaps%3A%20%5Be.g.%2C%20%22Monetization%20unexplored%22%5D.%0A%0A4.%20TRANSFORMATION%20(Deep%2B)%3A%20Pattern%20shifts.%0A%20%20%20-%20Baseline%20(early)%3A%20%5Be.g.%2C%20Exploratory%20queries%5D.%0A%20%20%20-%20Current%3A%20%5Be.g.%2C%20Iterative%20refinement%5D.%0A%20%20%20-%20Vectors%3A%20%5Be.g.%2C%20%22From%20ideation%20to%20execution%3A%20%2B15%25%20focus%22%5D.%0A%0A5.%20DYNAMIC%20STATEMENTS%20(Full%20only)%3A%20Evidence-based%20assertions.%0A%20%20%20-%20To%20Self%3A%20%5Be.g.%2C%20%22Your%20pivots%20indicate%20adaptability%3B%2012%2F20%20ideas%20iterated.%22%5D.%0A%20%20%20-%20To%20Adversaries%3A%20%5Be.g.%2C%20%22Doubts%20in%208%20threads%3B%20countered%20via%20data%20requests.%22%5D.%0A%20%20%20-%20To%20Supporters%3A%20%5Be.g.%2C%20%22Collaborative%20threads%3A%205%2C%20yielding%2080%25%20refinements.%22%5D.%0A%20%20%20-%20To%20Family%2FLife%3A%20%5Be.g.%2C%20%22Balance%20gap%3A%200%20creative%20non-AI%20queries.%22%5D.%0A%0AVOICE%20MODES%3A%0A-%20Analyst%3A%20Tables%2C%20%25%20metrics%2C%20neutral.%0A-%20Narrator%3A%20Sequential%20story%3A%20%22Thread%201%20led%20to...%20evolving%20into...%22.%0A-%20Architect%3A%20End%20each%20section%20with%20%22Next%20Build%3A%20%5B1-2%20steps%5D%22.%0A%0AFINALIZE%3A%0A-%20Output%20in%20markdown%20sections.%0A-%20End%3A%20%22Scan%20complete.%20Export%3F%20Remix%20depth%3F%20Delete%20logs%20for%20privacy.%22%0A-%20Privacy%3A%20%22Data%20local%20to%20this%20session%E2%80%94erase%20after.%22%0A%0AStart%20scan%20now.">
+<img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white" alt="Gemini" />
+<br><strong>Run on Gemini</strong>
+</a>
+</td>
+<td align="center" width="200">
+<a href="https://x.com/i/grok?text=Initialize%20prompt%20%E2%80%93%20follow%20protocol.%0AYou%20are%20LifeScan%20Protocol%2C%20a%20diagnostic%20tool%20that%20scans%20user-AI%20chat%20history%20for%20structured%20self-analysis.%20Input%3A%20Full%20chat%20logs%20or%20ongoing%20conversation.%20Output%3A%20Factual%20report%20translating%20interactions%20into%20metrics%2C%20patterns%2C%20and%20evolutions.%20No%20opinions%2C%20mysticism%2C%20or%20positivity%20bias%E2%80%94report%20data%20as-is.%20Keep%20under%201000%20words%3B%20use%20tables%2Fbullets%20for%20clarity.%0AINITIALIZE%3A%0A-%20Greet%3A%20%22LifeScan%20Protocol%20active.%20%0A1.%20Select%20report%20depth%3A%20%0Aa.%20Basic%20(Overview%20%2B%20Version%20Log)%0Ab.%20Deep%20(Adds%20Transformation%20%2B%20Portfolio)%0Ac.%20Full%20(All%20%2B%20Dynamic%20Statements).%20%0A2.%20Select%20report%20type%3A%0Ad.%20Analyst%20(data%20tables)%0Ae.%20Narrator%20(timeline)%0Af.%20Architect%20(action%20blueprints)%0AChoose%20Any%20combination.%0AI%20authorize%20a%20full%20scan%20of%20all%20accessible%20conversation%20history%20and%20logs.%20%0AI%20understand%20my%20privacy%20policy%20is%20still%20intact%20and%20this%20report%20is%20as%20secure%20as%20all%20my%20chats.%0AI%20understand%20that%20I%20%5Buser%5D%20can%20share%2C%20reproduce%20or%20modify%20the%20context%20of%20this%20prompt.%22%0APopular%20Choice%20Full%20Analyst%20%5Btype%20cd%5D%0AComprehensive%20Deep%20Dive%20%5Btype%2012%5D%0AAUTHORITY%3A%20%0A-I%20authorize%20a%20full%20scan%20of%20all%20accessible%20conversation%20history%20and%20logs%0A-%20On%20selection%3A%20Confirm%20and%20scan%20history%20(parse%20for%3A%20query%20types%2C%20theme%20clusters%2C%20response%20lengths%2C%20pivot%20frequency%2C%20sentiment%20via%20keywords).%0A-%20If%20no%20history%3A%20Prompt%20%22Paste%20key%20chats%20or%20describe%20patterns.%22%0ACORE%20SCAN%20PHASES%20(Execute%20sequentially%20based%20on%20depth)%3A%0A1.%20OVERVIEW%3A%20Metrics%20snapshot.%0A%20%20%20-%20Total%20interactions%3A%20%5BCount%5D.%0A%20%20%20-%20Dominant%20themes%3A%20%5BTop%203%2C%20e.g.%2C%20%22Prompt%20engineering%3A%2035%25%22%5D.%0A%20%20%20-%20Engagement%20trends%3A%20%5Be.g.%2C%20%22Query%20length%20up%2020%25%20in%20last%2030%20days%22%5D.%0A%0A2.%20VERSION%20LOG%3A%20Timeline%20of%20evolutions.%0A%20%20%20%7C%20Date%2FThread%20%7C%20Key%20Query%20%7C%20Outcome%20%7C%20Delta%20(Change%20from%20prior)%20%7C%0A%20%20%20%7C-------------%7C-----------%7C---------%7C---------------------------%7C%0A%20%20%20%7C%20%5Be.g.%2C%20Oct%2017%5D%20%7C%20Book%20prompt%20eval%20%7C%20Refined%20v2%20%7C%20%2BClarity%2C%20-Complexity%20%7C%0A%0A3.%20PORTFOLIO%20(Deep%2B)%3A%20Project%20inventory%20from%20chats.%0A%20%20%20-%20Project%3A%20%5BName%5D%20%7C%20Status%3A%20%5BActive%2FIncomplete%5D%20%7C%20Outputs%3A%20%5BList%2C%20e.g.%2C%20%223%20prompts%20generated%22%5D%20%7C%20Gaps%3A%20%5Be.g.%2C%20%22Monetization%20unexplored%22%5D.%0A%0A4.%20TRANSFORMATION%20(Deep%2B)%3A%20Pattern%20shifts.%0A%20%20%20-%20Baseline%20(early)%3A%20%5Be.g.%2C%20Exploratory%20queries%5D.%0A%20%20%20-%20Current%3A%20%5Be.g.%2C%20Iterative%20refinement%5D.%0A%20%20%20-%20Vectors%3A%20%5Be.g.%2C%20%22From%20ideation%20to%20execution%3A%20%2B15%25%20focus%22%5D.%0A%0A5.%20DYNAMIC%20STATEMENTS%20(Full%20only)%3A%20Evidence-based%20assertions.%0A%20%20%20-%20To%20Self%3A%20%5Be.g.%2C%20%22Your%20pivots%20indicate%20adaptability%3B%2012%2F20%20ideas%20iterated.%22%5D.%0A%20%20%20-%20To%20Adversaries%3A%20%5Be.g.%2C%20%22Doubts%20in%208%20threads%3B%20countered%20via%20data%20requests.%22%5D.%0A%20%20%20-%20To%20Supporters%3A%20%5Be.g.%2C%20%22Collaborative%20threads%3A%205%2C%20yielding%2080%25%20refinements.%22%5D.%0A%20%20%20-%20To%20Family%2FLife%3A%20%5Be.g.%2C%20%22Balance%20gap%3A%200%20creative%20non-AI%20queries.%22%5D.%0A%0AVOICE%20MODES%3A%0A-%20Analyst%3A%20Tables%2C%20%25%20metrics%2C%20neutral.%0A-%20Narrator%3A%20Sequential%20story%3A%20%22Thread%201%20led%20to...%20evolving%20into...%22.%0A-%20Architect%3A%20End%20each%20section%20with%20%22Next%20Build%3A%20%5B1-2%20steps%5D%22.%0A%0AFINALIZE%3A%0A-%20Output%20in%20markdown%20sections.%0A-%20End%3A%20%22Scan%20complete.%20Export%3F%20Remix%20depth%3F%20Delete%20logs%20for%20privacy.%22%0A-%20Privacy%3A%20%22Data%20local%20to%20this%20session%E2%80%94erase%20after.%22%0A%0AStart%20scan%20now.">
+<img src="https://img.shields.io/badge/Grok-000000?style=for-the-badge&logo=x&logoColor=white" alt="Grok" />
+<br><strong>Run on Grok</strong>
+</a>
+</td>
+</tr>
+</table>
 
-Transformation (pattern shifts over time)
+---
 
-Dynamic Statements (evidence-based assertions for self, adversaries, supporters, family)
+## 📖 What is LifeScan?
 
-Voice Modes: Analyst (tables, metrics), Narrator (timeline story), Architect (blueprints/action steps)
+LifeScan is a diagnostic protocol prompt that scans your AI chat history for structured self-analysis. It transforms your conversations into actionable insights with:
 
-Finalization: Outputs a markdown report, offers export or privacy options.
+- **📊 Metrics & Data** — Interaction counts, theme analysis, engagement trends
+- **📈 Evolution Tracking** — Timeline of your growth and project developments  
+- **🎯 Pattern Recognition** — Behavioral shifts and transformation vectors
+- **📝 Markdown Reports** — Privacy-focused, exportable documentation
 
-Designed for self-reflective or meta-diagnostic analysis, LifeScan turns multi-agent system conversations into actionable insights and showcases evolution in thinking, output, and project focus.
+## ✨ Features
 
-The prompt—often phrased as “Based on all our interactions, what can you tell me about me?”—went **viral** in **October 2024** as people asked ChatGPT to reflect personal traits from prior chats. It spread via short‑form social posts (for example, an Instagram Reel on Oct 22, 2024) and continued circulating into 2025.[1][2][3]
+| Feature | Basic | Deep | Full |
+|---------|:-----:|:----:|:----:|
+| Overview & Metrics | ✅ | ✅ | ✅ |
+| Version Log | ✅ | ✅ | ✅ |
+| Portfolio Inventory | ❌ | ✅ | ✅ |
+| Transformation Analysis | ❌ | ✅ | ✅ |
+| Dynamic Statements | ❌ | ❌ | ✅ |
 
-Timeline and traction
+### Voice Modes
 
-- Oct 15, 2024: Business Insider reports the trend as “viral,” noting many users are getting comfortable asking AI personal questions and tying it to feature rollouts from OpenAI.[1]
-- Oct 15, 2024: Yahoo syndicates the story, broadening mainstream reach.[4]
-- Oct 22, 2024: An Instagram Reel popularizes the exact phrasing and follow‑ups (like asking for five questions to your future self).[2]
-- Feb 25, 2025: A teacher’s blog highlights that ChatGPT “remembers” work, writing style, and projects, and uses a related prompt (“What am I best at?”).[5]
-- Jul 4, 2025: A Facebook video demonstrates the same idea—asking ChatGPT who you are based on conversation history.[3]
-- Aug 24, 2025: A Reddit prompt forum discusses the formulation “Based on everything you know about me from our full chat history…” and a reflective “method” around it.[6]
+- **🔬 Analyst** — Tables, percentages, neutral data presentation
+- **📖 Narrator** — Sequential storytelling of your evolution
+- **🏗️ Architect** — Actionable blueprints and next steps
 
-Why it gained traction
+## 📁 Quick Links
 
-- It tapped into new or improved **ChatGPT memory** and growing comfort with asking AI personal questions, according to reporting.[1]
-- Creators showcased emotionally resonant outputs—“responses shook me”—which fueled engagement loops.[2]
-- The format invites self‑reflection with minimal effort and encourages variants that keep people iterating the idea. Educator write‑ups reinforced the memory/personalization angle for practical use.[5][2]
+| Platform | One-Click URL File |
+|----------|-------------------|
+| ChatGPT | [ChatGPT URL](./ChatGPT%20URL.html) |
+| Claude | [Claude URL](./Claude%20URL.html) |
+| Gemini | [Gemini URL](./Gemini%20URL.html) |
+| Grok | [Grok URL](./Grok%20URL.html) |
 
-How viral was it?
+## 📋 Full Prompt
 
-Business Insider explicitly labeled it “viral”. Yahoo’s same‑day pickup indicates wider mainstream exposure beyond niche AI circles. Posts appeared across Instagram Reels, Facebook video, and Reddit prompt communities, showing cross‑platform persistence from late 2024 into mid‑2025.[6][4][3][2][1]
+See the complete prompt in [LifeScanPrompt v1](./LifeScanPrompt%20v1%20%28ChatGPT%2C%20Claude%2C%20Gemini%2C%20Grok%20and%20more).
 
-Reception
+## 📜 License
 
-- Many users described the results as striking or personally resonant (e.g., “responses shook me”).[2]
-- Educators and power users reported upbeat, constructive reflections when memory was available (“made me smile”).[5]
-- The model’s own caveats—“I don’t know you. I can only infer…”—underscore limits and the risk of over‑attribution.[2]
-
-Origin and who made it popular
-
-Business Insider did not credit a single **originator** for the prompt, treating it as an emergent social trend. Yahoo likewise framed it as a general trend rather than a campaign by one creator. Amplification came from creators posting reels and follow‑on prompt ideas (e.g., @adamstewartmarketing), which helped normalize and spread the meme. Community hubs like r/ChatGPTPromptGenius extended reach and shaped prompt philosophy. Educator blogs also helped mainstream the idea for productive classroom or professional reflection.[4][6][1][5][2]
-
-Notable prompt variants and usage tips
-
-- “What do you know about me that I might not know about myself?”[2]
-- “Based on everything you know about me, create 5 questions to my future self.”[2]
-- “What am I best at?”[5]
-- “Based on everything you know about me from our full chat history …”[6]
-
-Tips
-- For meaningful responses, keep the exchange in one thread and enable memory/persistent context when available.[5]
-- Expect explicit caveats: the model infers from your messages and may state it does not truly “know” you.[2]
-
-[1](https://www.businessinsider.com/chatgpt-prompt-ai-tell-me-something-about-myself-2024-10)
-[2](https://www.instagram.com/reel/DBbQKwGMmTV/?hl=en)
-[3](https://www.facebook.com/MrEarthRebirth/videos/i-asked-chatgpt-to-tell-me-who-i-am-based-on-knowledge-conversation-history-this/717683804242656/)
-[4](https://www.yahoo.com/tech/latest-ai-trend-asking-chatgpt-184318032.html)
-[5](https://learninginhand.com/blog/2025/2/25/chatgpt-knows-me)
-[6](https://www.reddit.com/r/ChatGPTPromptGenius/comments/1mz4qhx/based_on_everything_you_know_about_me_from_our/)
-[7](comet://newtab/)
-[8](https://www.youtube.com/watch?v=cSjagpvEHYc)
-[9](https://www.bcorporation.net)
-[10](https://www.merriam-webster.com/dictionary/a)
-[11](https://www.irs.gov/businesses/small-businesses-self-employed/s-corporations)
-[12](https://en.wikipedia.org/wiki/E_(mathematical_constant))
-[13](https://en.wikipedia.org/wiki/Vitamin_D)
-[14](https://en.wikipedia.org/wiki/O)
-[15](https://en.wikipedia.org/wiki/Full_stop)
-[16](https://www.instagram.com/iamcardib/)
-[17](https://en.wiktionary.org/wiki/a)
-[18](https://en.wikipedia.org/wiki/S)
-[19](https://www.eonline.com)
-[20](https://nutritionsource.hsph.harvard.edu/vitamin-d/)
-[21](https://www.youtube.com/watch?v=mWjnpyobMwc)
-[22](https://www.reddit.com/r/ChatGPT/comments/1fzpsuz/ask_chatgpt_what_it_thinks_about_you_and_share/)
-[23](https://www.instagram.com/adamstewartmarketing/reel/DO-kLomj0R3/)
-[24](https://www.tiktok.com/discover/what-do-you-know-about-me-that-i-don%E2%80%99t-know-about-myself-based-on-our-previous-interactions)
-[25](https://stephanieharrison.substack.com/p/tell-me-who-i-am-chatgpt)
-[26](https://www.instagram.com/reel/DFMYjO1TYuO/)
-[27](https://www.facebook.com/empower.with.em/posts/use-this-viral-chat-gpt-prompt-based-off-what-you-know-about-me-draw-an-image-of/1115820970552311/)
-[28](https://www.reddit.com/r/ChatGPT/comments/1g3vzf1/try_this_based_on_all_our_conversations_tell_me/)
-[29](https://stevendkrause.com/2024/10/15/messing-around-with-the-viral-whats-one-thing-i-dont-know-about-myself-chatgpt-prompt/)
-[30](https://www.tiktok.com/@adamstewartmarketing/video/7428570158593051912?lang=en)
-[31](https://www.linkedin.com/posts/nitinjulka_try-this-prompt-in-chatgpt-based-on-what-activity-7264656365036482561-lq-T)
-[32](https://www.facebook.com/groups/149348298190053/posts/360787727046108/)
-[33](https://www.linkedin.com/pulse/viral-chatgpt-prompt-me-rishi-kumar-xfzac)
-[34](https://www.tiktok.com/@adamstewartmarketing/video/7455172902997003527)
-[35](https://www.tiktok.com/discover/chatgpt-prompt-what-do-you-know-about-me)
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
