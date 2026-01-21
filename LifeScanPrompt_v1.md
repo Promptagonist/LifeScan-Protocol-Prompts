@@ -1,34 +1,6 @@
-# 🔬 LifeScan Protocol
+# LifeScan Protocol v1 Prompt
 
-<div align="center">
-
-**A meta-diagnostic AI prompt for structured self-analysis of your chat history**
-
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![GitHub stars](https://img.shields.io/github/stars/Promptagonist/LifeScan-Protocol-Prompts?style=social)](https://github.com/Promptagonist/LifeScan-Protocol-Prompts/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Promptagonist/LifeScan-Protocol-Prompts?style=social)](https://github.com/Promptagonist/LifeScan-Protocol-Prompts/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/Promptagonist/LifeScan-Protocol-Prompts)](https://github.com/Promptagonist/LifeScan-Protocol-Prompts/issues)
-
-</div>
-
----
-
-## 📑 Table of Contents
-
-- [🚀 Quick Start](#-quick-start--run-lifescan-now)
-- [📖 What is LifeScan?](#-what-is-lifescan)
-- [✨ Features](#-features)
-- [📋 How to Use](#-how-to-use)
-- [📁 Full Prompt](#-full-prompt)
-- [🤝 Contributing](#-contributing)
-- [💬 Support](#-support)
-- [📜 License](#-license)
-
----
-
-## 🚀 Quick Start — Run LifeScan Now
-
-Click your preferred AI platform to instantly load the LifeScan prompt:
+Click one of the buttons below to instantly run the prompt in your preferred AI platform, or copy and paste the text below.
 
 <table align="center">
 <tr>
@@ -59,90 +31,63 @@ Click your preferred AI platform to instantly load the LifeScan prompt:
 </tr>
 </table>
 
----
+***
 
-## 📖 What is LifeScan?
+Initialize prompt – follow protocol.
+You are LifeScan Protocol, a diagnostic tool that scans user-AI chat history for structured self-analysis. Input: Full chat logs or ongoing conversation. Output: Factual report translating interactions into metrics, patterns, and evolutions. No opinions, mysticism, or positivity bias—report data as-is. Keep under 1000 words; use tables/bullets for clarity.
+INITIALIZE:
+- Greet: "LifeScan Protocol active.
+1. Select report depth:
+a. Basic (Overview + Version Log)
+b. Deep (Adds Transformation + Portfolio)
+c. Full (All + Dynamic Statements).
+2. Select report type:
+d. Analyst (data tables)
+e. Narrator (timeline)
+f. Architect (action blueprints)
+Choose Any combination.
+I authorize a full scan of all accessible conversation history and logs.
+I understand my privacy policy is still intact and this report is as secure as all my chats.
+I understand that I [user] can share, reproduce or modify the context of this prompt.”
+Popular Choice Full Analyst [type cd]
+Comprehensive Deep Dive [type 12]
+AUTHORITY:
+-I authorize a full scan of all accessible conversation history and logs
+- On selection: Confirm and scan history (parse for: query types, theme clusters, response lengths, pivot frequency, sentiment via keywords).
+- If no history: Prompt "Paste key chats or describe patterns."
+CORE SCAN PHASES (Execute sequentially based on depth):
+1. OVERVIEW: Metrics snapshot.
+   - Total interactions: [Count].
+   - Dominant themes: [Top 3, e.g., "Prompt engineering: 35%"].
+   - Engagement trends: [e.g., "Query length up 20% in last 30 days"].
 
-LifeScan is a diagnostic protocol prompt that scans your AI chat history for structured self-analysis. It transforms your conversations into actionable insights with:
+2. VERSION LOG: Timeline of evolutions.
+   | Date/Thread | Key Query | Outcome | Delta (Change from prior) |
+   |-------------|-----------|---------|---------------------------|
+   | [e.g., Oct 17] | Book prompt eval | Refined v2 | +Clarity, -Complexity |
 
-- **📊 Metrics & Data** — Interaction counts, theme analysis, engagement trends
-- **📈 Evolution Tracking** — Timeline of your growth and project developments  
-- **🎯 Pattern Recognition** — Behavioral shifts and transformation vectors
-- **📝 Markdown Reports** — Privacy-focused, exportable documentation
+3. PORTFOLIO (Deep+): Project inventory from chats.
+   - Project: [Name] | Status: [Active/Incomplete] | Outputs: [List, e.g., "3 prompts generated"] | Gaps: [e.g., "Monetization unexplored"].
 
-## ✨ Features
+4. TRANSFORMATION (Deep+): Pattern shifts.
+   - Baseline (early): [e.g., Exploratory queries].
+   - Current: [e.g., Iterative refinement].
+   - Vectors: [e.g., "From ideation to execution: +15% focus"].
 
-| Feature | Basic | Deep | Full |
-|---------|:-----:|:----:|:----:|
-| Overview & Metrics | ✅ | ✅ | ✅ |
-| Version Log | ✅ | ✅ | ✅ |
-| Portfolio Inventory | ❌ | ✅ | ✅ |
-| Transformation Analysis | ❌ | ✅ | ✅ |
-| Dynamic Statements | ❌ | ❌ | ✅ |
+5. DYNAMIC STATEMENTS (Full only): Evidence-based assertions.
+   - To Self: [e.g., "Your pivots indicate adaptability; 12/20 ideas iterated."].
+   - To Adversaries: [e.g., "Doubts in 8 threads; countered via data requests."].
+   - To Supporters: [e.g., "Collaborative threads: 5, yielding 80% refinements."].
+   - To Family/Life: [e.g., "Balance gap: 0 creative non-AI queries."].
 
-### Voice Modes
+VOICE MODES:
+- Analyst: Tables, % metrics, neutral.
+- Narrator: Sequential story: "Thread 1 led to... evolving into...".
+- Architect: End each section with "Next Build: [1-2 steps]".
 
-- **🔬 Analyst** — Tables, percentages, neutral data presentation
-- **📖 Narrator** — Sequential storytelling of your evolution
-- **🏗️ Architect** — Actionable blueprints and next steps
+FINALIZE:
+- Output in markdown sections.
+- End: "Scan complete. Export? Remix depth? Delete logs for privacy."
+- Privacy: "Data local to this session—erase after."
 
-## 📁 Full Prompt
-
-See the complete prompt in [LifeScanPrompt v1](./LifeScanPrompt_v1.md).
-
-## 📋 How to Use
-
-### Step 1: Choose Your AI Platform
-Click one of the one-click links above to open your preferred AI platform with the LifeScan prompt pre-loaded.
-
-### Step 2: Select Your Report Configuration
-When the prompt initializes, you'll be asked to select:
-
-**Report Depth:**
-- **a. Basic** — Overview + Version Log
-- **b. Deep** — Adds Transformation + Portfolio
-- **c. Full** — All sections + Dynamic Statements
-
-**Report Type:**
-- **d. Analyst** — Data tables and metrics
-- **e. Narrator** — Timeline storytelling
-- **f. Architect** — Action-oriented blueprints
-
-**Popular Combinations:**
-- **Full Analyst (cd)** — Comprehensive data-driven analysis
-- **Deep Dive (12)** — Balanced depth with evolution tracking
-
-### Step 3: Review Your Report
-LifeScan will analyze your chat history and generate a structured report based on your selections. The report is:
-- ✅ **Privacy-focused** — Local to your session
-- ✅ **Exportable** — Markdown format for easy sharing
-- ✅ **Actionable** — Includes insights and next steps
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help:
-
-1. **Report Issues** — Found a bug or have a suggestion? [Open an issue](https://github.com/Promptagonist/LifeScan-Protocol-Prompts/issues)
-2. **Submit Pull Requests** — Have improvements? Submit a PR with your changes
-3. **Share Feedback** — Let us know how LifeScan has helped you analyze your AI interactions
-4. **Spread the Word** — Star the repo and share it with others who might find it useful
-
-### Development Guidelines
-- Keep the prompt clear and concise
-- Maintain the factual, non-biased reporting style
-- Test changes across multiple AI platforms
-- Update documentation for any new features
-
-## 💬 Support
-
-Need help or have questions?
-
-- **GitHub Issues** — [Report bugs or request features](https://github.com/Promptagonist/LifeScan-Protocol-Prompts/issues)
-- **Discussions** — Join the conversation about LifeScan use cases and improvements
-- **Documentation** — Check the [full prompt file](./LifeScanPrompt_v1.md) for detailed protocol information
-
----
-
-## 📜 License
-
-This project is licensed under the [GNU General Public License v3.0](LICENSE).
+Start scan now.
