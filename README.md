@@ -88,7 +88,7 @@ LifeScan is a diagnostic protocol prompt that scans your AI chat history for str
 
 ## 📁 Full Prompt
 
-See the complete prompt in [LifeScanPrompt v1](./LifeScanPrompt%20v1%20%28ChatGPT%2C%20Claude%2C%20Gemini%2C%20Grok%20and%20more%29).
+See the complete prompt in [LifeScanPrompt v1](./LifeScanPrompt_v1.md).
 
 ## 📋 How to Use
 
@@ -139,7 +139,7 @@ Need help or have questions?
 
 - **GitHub Issues** — [Report bugs or request features](https://github.com/Promptagonist/LifeScan-Protocol-Prompts/issues)
 - **Discussions** — Join the conversation about LifeScan use cases and improvements
-- **Documentation** — Check the [full prompt file](./LifeScanPrompt%20v1%20%28ChatGPT%2C%20Claude%2C%20Gemini%2C%20Grok%20and%20more%29) for detailed protocol information
+- **Documentation** — Check the [full prompt file](./LifeScanPrompt_v1.md) for detailed protocol information
 
 ---
 
