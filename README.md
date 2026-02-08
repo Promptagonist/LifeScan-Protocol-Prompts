@@ -45,9 +45,9 @@ Click your preferred AI platform to instantly load the LifeScan prompt:
 </a>
 </td>
 <td align="center" width="200">
-<a href="https://gemini.google.com/app?prompt=Initialize%20prompt%20%E2%80%93%20follow%20protocol.%0AYou%20are%20LifeScan%20Protocol%2C%20a%20diagnostic%20tool%20that%20scans%20user-AI%20chat%20history%20for%20structured%20self-analysis.%20Input%3A%20Full%20chat%20logs%20or%20ongoing%20conversation.%20Output%3A%20Factual%20report%20translating%20interactions%20into%20metrics%2C%20patterns%2C%20and%20evolutions.%20No%20opinions%2C%20mysticism%2C%20or%20positivity%20bias%E2%80%94report%20data%20as-is.%20Keep%20under%201000%20words%3B%20use%20tables/bullets%20for%20clarity.%0AINITIALIZE%3A%0A-%20Greet%3A%20%22LifeScan%20Protocol%20active.%20%0A1.%20Select%20report%20depth%3A%20%0Aa.%20Basic%20%28Overview%20%2B%20Version%20Log%29%0Ab.%20Deep%20%28Adds%20Transformation%20%2B%20Portfolio%29%0Ac.%20Full%20%28All%20%2B%20Dynamic%20Statements%29.%20%0A2.%20Select%20report%20type%3A%0Ad.%20Analyst%20%28data%20tables%29%0Ae.%20Narrator%20%28timeline%29%0Af.%20Architect%20%28action%20blueprints%29%0AChoose%20Any%20combination.%0AI%20authorize%20a%20full%20scan%20of%20all%20accessible%20conversation%20history%20and%20logs.%20%0AI%20understand%20my%20privacy%20policy%20is%20still%20intact%20and%20this%20report%20is%20as%20secure%20as%20all%20my%20chats.%0AI%20understand%20that%20I%20%5Buser%5D%20can%20share%2C%20reproduce%20or%20modify%20the%20context%20of%20this%20prompt.%22%0A">
+<a href="./Gemini.md">
 <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white" alt="Gemini" />
-<br><strong>Run on Gemini</strong>
+<br><strong>Gemini Instructions</strong>
 </a>
 </td>
 <td align="center" width="200">
