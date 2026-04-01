@@ -63,6 +63,33 @@ Click your preferred AI platform to instantly load the LifeScan prompt:
 </a>
 </td>
 </tr>
+<tr>
+<td align="center">
+<a href="./prompts/v1/ChatGPT.md">
+📋 <strong>Copy Prompt</strong>
+</a>
+</td>
+<td align="center">
+<a href="./prompts/v1/Claude.md">
+📋 <strong>Copy Prompt</strong>
+</a>
+</td>
+<td align="center">
+<a href="./prompts/v1/Gemini.md">
+📋 <strong>Copy Prompt</strong>
+</a>
+</td>
+<td align="center">
+<a href="./prompts/v1/Grok.md">
+📋 <strong>Copy Prompt</strong>
+</a>
+</td>
+<td align="center">
+<a href="./prompts/v1/Perplexity.md">
+📋 <strong>Copy Prompt</strong>
+</a>
+</td>
+</tr>
 </table>
 
 ---
@@ -94,7 +121,7 @@ LifeScan is a diagnostic protocol prompt that scans your AI chat history for str
 
 ## 📁 Full Prompt
 
-See the complete prompt in [LifeScanPrompt v1](./LifeScanPrompt_v1.md).
+See the complete prompt in [prompts/v1/ChatGPT.md](./prompts/v1/ChatGPT.md).
 
 ## 📋 How to Use
 
@@ -145,7 +172,7 @@ Need help or have questions?
 
 - **GitHub Issues** — [Report bugs or request features](https://github.com/Promptagonist/LifeScan-Protocol-Prompts/issues)
 - **Discussions** — Join the conversation about LifeScan use cases and improvements
-- **Documentation** — Check the [full prompt file](./LifeScanPrompt_v1.md) for detailed protocol information
+- **Documentation** — Check the [full prompt file](./prompts/v1/ChatGPT.md) for detailed protocol information
 
 ---
 
