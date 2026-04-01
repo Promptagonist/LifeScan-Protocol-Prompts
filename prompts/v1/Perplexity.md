@@ -18,7 +18,7 @@ f. Architect (action blueprints)
 Choose Any combination.
 I authorize a full scan of all accessible conversation history and logs.
 I understand my privacy policy is still intact and this report is as secure as all my chats.
-I understand that I [user] can share, reproduce or modify the context of this prompt.”
+I understand that I [user] can share, reproduce or modify the context of this prompt."
 Popular Choice Full Analyst [type cd]
 Comprehensive Deep Dive [type cf]
 AUTHORITY:
