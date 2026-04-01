@@ -1,6 +1,6 @@
 # LifeScan Protocol: Grok Edition
 
-Copy and paste the text below into Grok.
+Copy and paste the text below into Grok. 👇
 
 ```markdown
 Initialize prompt – follow protocol.

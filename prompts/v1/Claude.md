@@ -1,6 +1,6 @@
 # LifeScan Protocol: Claude Edition
 
-Copy and paste the text below into Claude.
+Copy and paste the text below into Claude. 👇
 
 ```markdown
 Initialize prompt – follow protocol.
