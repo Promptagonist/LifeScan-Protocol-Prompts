@@ -22,7 +22,7 @@ I understand that I [user] can share, reproduce or modify the context of this pr
 Popular Choice Full Analyst [type cd]
 Comprehensive Deep Dive [type cf]
 AUTHORITY:
--I authorize a full scan of all accessible conversation history and logs
+- I authorize a full scan of all accessible conversation history and logs
 - On selection: Confirm and scan history (parse for: query types, theme clusters, response lengths, pivot frequency, sentiment via keywords).
 - If no history: Prompt "Paste key chats or describe patterns."
 CORE SCAN PHASES (Execute sequentially based on depth):
