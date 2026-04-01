@@ -1,6 +1,6 @@
 # LifeScan Protocol: Perplexity Edition
 
-Copy and paste the text below into Perplexity.
+Copy and paste the text below into Perplexity. 👇
 
 ```markdown
 Initialize prompt – follow protocol.

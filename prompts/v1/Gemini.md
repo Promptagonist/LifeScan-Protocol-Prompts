@@ -1,6 +1,6 @@
 # LifeScan Protocol: Gemini Edition
 
-Copy and paste the text below into Gemini.
+Copy and paste the text below into Gemini. 👇
 
 ```markdown
 LifeScan Protocol: Gemini Edition

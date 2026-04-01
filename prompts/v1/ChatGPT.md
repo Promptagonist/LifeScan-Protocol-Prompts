@@ -1,6 +1,6 @@
 # LifeScan Protocol: ChatGPT Edition
 
-Copy and paste the text below into ChatGPT.
+Copy and paste the text below into ChatGPT. 👇
 
 ```markdown
 Initialize prompt – follow protocol.
